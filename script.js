@@ -21,7 +21,6 @@ var currentTime = 7;
 console.log(currentTime < 9 || currentTime > 17); // Returns true
 
 // The Logical NOT operator: !
-
 // The ! operator flips the evaluated boolean value from true to false and from false to true.
 
 var petHungry = true;
@@ -37,3 +36,12 @@ console.log(petHungry);
 
 petHungry = !petHungry;
 console.log(petHungry)
+
+
+// The Modulus Operator: %
+// The modulus operator returns the remainder of division.
+
+// A small restaurant that has 4 chairs per table, and a total of 5 tables, suddenly receives 22 guests
+// How many guests will not be able to sit down in the restaurant
+
+console.log(22 % 5);

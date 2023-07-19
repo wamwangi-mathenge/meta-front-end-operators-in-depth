@@ -30,3 +30,10 @@ console.log("Pet is hungry:", petHungry);
 console.log("Pet is hungry:", !petHungry);
 console.log(petHungry)
 console.log(!petHungry)
+
+
+// You can permanently change the value stored in the petHungry variable from true to false
+console.log(petHungry);
+
+petHungry = !petHungry;
+console.log(petHungry)

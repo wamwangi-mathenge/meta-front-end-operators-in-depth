@@ -45,3 +45,16 @@ console.log(petHungry)
 // How many guests will not be able to sit down in the restaurant
 
 console.log(22 % 5);
+
+
+// The + operator on strings and numbers
+// The + operator can be used with number data type to add those values together.
+// The + operator can also be used to join string data type together.
+
+console.log("inter" + "milan");
+console.log("manchester" + "city");
+
+// If the + operator is used to join strings, it is referred to as the CONCATENATION operator.
+// It's used to CONCATENATE strings
+
+// When used with numbers, the + operator is the ADDITION operator.

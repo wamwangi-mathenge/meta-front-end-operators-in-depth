@@ -64,3 +64,25 @@ console.log("manchester" + "city");
 
 console.log(25 + " million dollars");
 console.log(120 + " billion shillings")
+
+
+// The addition assignment operator
+// Used when one wants to accumulate the values stored in a variable
+
+// Counting the number of overtime hours worked in a week
+var mon = 1;
+var tue = 2;
+var wed = 1;
+var thu = 2;
+var fri = 3;
+console.log(mon + tue + wed + thu + fri)
+
+
+// using the addition assignment operator
+var overtime = 1;
+overtime += 2;
+overtime += 1;
+overtime += 2;
+overtime += 3;
+
+console.log(overtime);

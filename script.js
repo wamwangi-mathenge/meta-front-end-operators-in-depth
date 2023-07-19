@@ -86,3 +86,14 @@ overtime += 2;
 overtime += 3;
 
 console.log(overtime);
+
+
+// The concatenation assignment operator
+
+var longString = "";
+longString += "Once ";
+longString += "upon ";
+longString += "a ";
+longString += "time ";
+longString += "...";
+console.log(longString);

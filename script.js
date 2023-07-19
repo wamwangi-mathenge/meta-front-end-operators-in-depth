@@ -19,3 +19,14 @@ console.log(currentTime > 9 && currentTime < 17); // Returns True
 var currentTime = 7;
 // Use the || operator to join the two comparisons
 console.log(currentTime < 9 || currentTime > 17); // Returns true
+
+// The Logical NOT operator: !
+
+// The ! operator flips the evaluated boolean value from true to false and from false to true.
+
+var petHungry = true;
+console.log(petHungry);
+console.log("Pet is hungry:", petHungry);
+console.log("Pet is hungry:", !petHungry);
+console.log(petHungry)
+console.log(!petHungry)

@@ -58,3 +58,9 @@ console.log("manchester" + "city");
 // It's used to CONCATENATE strings
 
 // When used with numbers, the + operator is the ADDITION operator.
+
+
+// Combining strings and numbers using the + operator
+
+console.log(25 + " million dollars");
+console.log(120 + " billion shillings")
